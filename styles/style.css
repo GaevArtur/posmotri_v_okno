@@ -213,7 +213,6 @@ ol {
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
-  
 }
 
 .search-form__fieldset-title{
@@ -229,7 +228,7 @@ text-align: left;
 font-family: 'Fira Sans Condensed', sans-serif;
 font-size: 18px;
 font-weight: 400;
-line-height: 21.6px;
+line-height: 1;
 text-align: left;
 }
 
@@ -263,7 +262,7 @@ text-align: left;
 
 .search-form__label:has(:focus-visible){
   outline: 1px solid #fff;
-  outline-offset: 3px;
+  outline-offset: 2px;
 }
 
 .search-form__checkbox:checked + span{
