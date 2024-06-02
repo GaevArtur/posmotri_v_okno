@@ -71,13 +71,18 @@ ol {
 .content__list{
   display: flex;
   flex-direction: column;
-  gap: 30px;
   height: 298px;
   overflow: auto;
+  /*gap: 30px*/
 }
+
 
 .content__list-item{
   width: 398px;
+}
+
+.content__list-item:not(:last-child){
+  margin-bottom: 30px;
 }
 
 .content__details{
@@ -105,7 +110,7 @@ ol {
   flex-direction: row;
   align-items: start;
   min-width: 394px;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .content__video-card-thumbnail{
@@ -143,6 +148,7 @@ ol {
   display: block;
   text-decoration: none;
   color: #fff;
+  margin: 2px;
 }
 
 .content__video-card-title{
